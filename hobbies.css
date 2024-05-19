@@ -1,0 +1,55 @@
+/* Hobbies Section */
+#hobbies {
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(140, 95, 167);
+    width: 100%;
+}
+
+#hobbies h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.hobby-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hobby {
+    background-color: #e8e8e8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(33.33% - 40px); /* Adjust width for responsiveness */
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.hobby:hover {
+    transform: translateY(-10px);
+}
+
+.hobby img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hobby h3 {
+    margin: 15px;
+    font-size: 1.5em;
+    color: #4817b5; /* Adjust text color */
+}
+
+.hobby p {
+    margin: 0 15px 15px;
+    font-size: 1em;
+    color: #4817b5; /* Adjust text color */
+}

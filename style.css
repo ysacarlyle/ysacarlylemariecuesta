@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Change background color as needed */
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(91, 48, 116);
+    background: rgb(91, 48, 116);
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 1000; /* Ensure navigation bar stays on top */
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: #4817b5;
+}
+
+/* Content Area Styles */
+.content {
+    margin-top: 80px; /* Adjust this value to match the height of your navigation bar */
+}
+
+
+/* Home section styling */
+.home {
+    display: flex;
+    background: url("https://scontent.fdgt1-1.fna.fbcdn.net/v/t1.15752-9/440925251_1593041354886113_4837627311051189234_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHccqS4l6PfBLSO4WWdsiDniK0hPFbwTN2IrSE8VvBM3TxWb804X_Fr939WuIxLUjCm1G8IwW_-e0-uruB98BJS&_nc_ohc=poMd5lmXlCIQ7kNvgFLSgIq&_nc_ht=scontent.fdgt1-1.fna&cb_e2o_trans=t&oh=03_Q7cD1QFAClDyD2vq7qEb0A8O5ziNTM65bdacIIa6ldJIeur5-w&oe=66707EAD") no-repeat center;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+    font-size: 27px;
+}
+
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}

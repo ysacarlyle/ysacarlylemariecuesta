@@ -1,0 +1,56 @@
+/* Interests Section */
+#interests {
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(140, 95, 167);
+    width: 1400px;
+    height: 100vh;
+}
+
+#interests h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.interest-grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    height: 50vh;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.interest {
+    text-align: center;
+    background-color: #4e23b4;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    height: 50vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.interest:hover {
+    background-color: #180c4d;
+}
+
+.interest i {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.interest h3 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.interest p {
+    font-size: 2em;
+    margin: 0;
+    height: 50vh;
+}

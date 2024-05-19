@@ -1,0 +1,79 @@
+/* Academic Background Section */
+#academic-background {
+    background-color: rgb(140, 95, 167);
+    padding: 50px 0;
+    height: 100vh;
+    text-align: center;
+}
+
+#academic-background h2 {
+    color: #ffffff;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #390b3f;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.entry {
+    background-color: #ffffff;
+    border: 1px solid #7e3c92;
+    border-radius: 10px;
+    padding: 50px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.entry:hover {
+    transform: translateY(-10px);
+}
+
+.entry::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #7e3c92 transparent transparent;
+    top: 20px;
+    left: -10px;
+    transform: translateX(-50%);
+}
+
+.entry-content {
+    text-align: left;
+}
+
+.entry-content h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #3d2594;
+}
+
+.entry-content p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #333;
+}
